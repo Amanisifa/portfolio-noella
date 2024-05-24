@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../fond/service.jpg);
+    background-size: cover;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.lien{
+    margin-right: 120px;
+    
+}
+.lien a{
+    padding-left: 45px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.lien a:hover {
+    
+    color: orchid;
+    
+    transition: .3s;
+
+}
+span{
+    color: orchid;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+.cont{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.cont-a{
+    padding-top: 2rem;
+}
+.contacte{
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-left: 27%;
+    margin-bottom: 35px;
+    margin-top: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    width: 500px;
+    box-shadow: 0 0 2px 4px rgb(0, 0, 0, 0.2);
+}
+input,textarea{
+    margin-bottom: 2rem;
+    padding: 7px;
+    border: none;
+    border-bottom: 2px solid black;
+    
+}
+.btn{
+    width: 100px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    align-items: center;
+    
+    border: none;
+}

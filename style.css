@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./fond/background1.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.lien{
+    margin-right: 120px;
+    
+}
+.lien a{
+    padding-left: 45px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.fonds{
+    background-image: url();
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    margin-right: 400px;
+}
+
+.lien a:hover {
+    
+    color: orchid;
+    
+    transition: .3s;
+
+}
+main{
+    margin-top: 250px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    color: orchid;
+}

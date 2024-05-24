@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(0, 0, 0, 1);
+}
+
+.lien a:hover {
+    
+    color: orchid;
+    
+    transition: .3s;
+
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.lien{
+    margin-right: 120px;
+    
+}
+.lien a{
+    padding-left: 45px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.wrapper{
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fafafa00;
+}
+.wrapper h1{
+    font-size: 3em;
+    text-align: center;
+
+    margin: 25px;
+}
+.content-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-top: 30px;
+}
+.card{
+    min-height: 220px;
+    width: 320px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    margin: 10px 4px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1);
+    
+
+}
+.card i:hover{
+    
+    color: orchid;
+    
+}
+.card i{
+    margin: 20%;
+    color: #ff2424c7;
+}
+.card h2{
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.card p{
+    color: #6c757d;
+    text-align: center;
+}
+ .card:hover{
+    background: linear-gradient(to bottom,#e619cb,#00d7f3);
+    transform: translateY(-8px);
+ }                                     
+#text{
+    text-align: center;
+    width: 50%;
+   
+}
+header{
+    background-color: rgba(28, 133, 175, 0.911);
+    padding: 10px;
+}
